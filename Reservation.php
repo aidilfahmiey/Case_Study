@@ -9,7 +9,8 @@
 <body>
     <header>
         <div class="Top">
-        <img src="resource/logo1.png" alt="logo" class="logo">
+        <a href="index.html" class="logomain"><img src="resource/logo1.png" alt="logo" class="logo"></a>
+        
             <nav>
                 <ul>
                 <li><a href="index.html"><strong>Home</strong></a></li>
