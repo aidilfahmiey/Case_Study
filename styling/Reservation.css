@@ -4,6 +4,11 @@ body {
   zoom: 100%;
 }
 
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .Top {
   width: 90%;
   margin: 0 auto;
@@ -52,4 +57,9 @@ nav a:hover {
   transition: 0.5s;
   padding: 10px 20px 10px 20px;
   border-radius: 10px 10px 10px 10px;
+}
+
+hr.rounded {
+  border-top: 8px solid gray;
+  border-radius: 50px;
 }

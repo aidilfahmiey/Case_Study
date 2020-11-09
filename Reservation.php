@@ -21,7 +21,7 @@
             </nav>
         </div>
     </header>
-
+    <hr class="rounded">
 
 </body>
 </html>
