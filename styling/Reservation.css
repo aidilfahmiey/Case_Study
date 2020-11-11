@@ -1,8 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-family: sans-serif;
   zoom: 100%;
 }
+
+/*css for HEADER*/
 
 header::after {
   content: "";
@@ -59,7 +60,14 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
 }
 
-hr.rounded {
-  border-top: 8px solid gray;
+hr.line {
+  border-top: 10px solid gray;
   border-radius: 50px;
+}
+
+/*css for MAIN BODY*/
+
+p {
+  color: blueviolet;
+  text-align: center;
 }

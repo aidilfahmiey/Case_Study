@@ -21,6 +21,9 @@
             </nav>
         </div>
     </header>
-    <hr class="rounded">
+    <hr class="line">
+
+    <p>dawfad</p>
+
 </body>
 </html>
