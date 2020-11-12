@@ -25,9 +25,9 @@
 
     <div class="formbody">
     <div class="mainform"><h1>Reservation Form</h1></div>
-
+    
     <div class="main">
-            <form>
+            <form method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -37,7 +37,7 @@
                     <input type="email" class="email" name="email" placeholder="Email" required>
 
                     <h2 class="name">Phone Number</h2>
-                    <input type="tel" class="pnum" name="Phone Number" placeholder="01234567891" pattern="[0-9]{3}-[0-9]{8}" maxlength="12" required><br>
+                    <input type="tel" class="pnum" name="Phone Number" placeholder="01234567891"  maxlength="12" required><br>
 
                     <h2 class="name">Choose date</h2>
                     <input type="date" class="datec" name="date" required>
@@ -53,7 +53,7 @@
                     <h2 class="name">Number of pax</h2>
                     <input type="number" class="pax" name="pax" placeholder="00" minlength="50" required>
 
-                    <button class="button button1" type="submit">Make Reservation</button>
+                    <button class="button button1"  onClick="confirm()">Make Reservation</button>
                 
             </form>
         </div>
@@ -85,5 +85,18 @@
 
         </td>
     </tr>
+
+    <script type="text/javascript">
+        function confirm(){
+            var userPreference;
+            var x =confirm("Confirm this reservation?");
+            if(r==true){
+                userPreference = "Data saved successfully!";
+            }else{
+                userPreference = "Cancelled";
+            }
+        }
+
+    </script>
 </body>
 </html>
