@@ -196,10 +196,35 @@ form {
 .pax {
   position: relative;
   left: 200px;
-  top: -67px;
+  top: -87px;
   line-height: 40px;
   width: 132px;
   border-radius: 6px;
   padding: 0 22px;
   font-size: 16px;
+}
+
+.button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 70px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #008cba;
+}
+
+.button1:hover {
+  background-color: #008cba;
+  color: white;
 }

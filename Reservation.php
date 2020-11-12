@@ -51,9 +51,9 @@
                     <input type="time" class="time" name="endtime" required><br>
 
                     <h2 class="name">Number of pax</h2>
-                    <input type="number" class="pax" name="pax" placeholder="00" minlength="50" required><br><br>
+                    <input type="number" class="pax" name="pax" placeholder="00" minlength="50" required>
 
-                    <h2 class="nameb button" type="submit">Make Reservation</h2><br>
+                    <button class="button button1" type="submit">Make Reservation</button>
                 
             </form>
         </div>
