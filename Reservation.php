@@ -92,7 +92,7 @@
     <script type = "text/javascript">
 
     function getConfirmation() {
-        alert("Your reservation has been made, Thank you!");
+        alert("Confirm reservation?");
     }
 
 </script>     
