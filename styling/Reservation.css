@@ -1,10 +1,8 @@
-* {
-  margin: auto;
-  width: 100%;
-  overflow-x: hidden;
-}
 /*css for HEADER*/
-
+header {
+  width: 100%;
+  margin: 0 auto;
+}
 header::after {
   content: "";
   display: table;
@@ -70,32 +68,34 @@ hr.line {
 body {
   font-family: sans-serif;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .formbody {
   background-image: url(../resource/podium.jpg);
   background-position: center;
   background-size: contain;
-  height: 900px;
-  margin-top: -5px;
+  height: 1230px;
+  width: 100%;
+  margin-top: -10px;
   font-family: sans-serif;
 }
 
 .mainform {
   text-align: center;
   width: 800px;
-  background-color: rgba(255, 255, 255, 0.6);
   margin: auto;
-  color: black;
+  color: white;
   padding: 10px 0px 10px 0px;
-  border-radius: 15px 15px 0px 0px;
-  margin-top: 20px;
 }
 
 .main {
   background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 15px 15px 30px 30px;
   width: 800px;
   margin: auto;
+  height: 780px;
 }
 
 form {
@@ -107,14 +107,14 @@ form {
   margin-top: 30px;
   width: 125px;
   font-size: 18px;
-  color: red;
+  color: white;
   font-weight: 700;
 }
 
 .firstname {
   position: relative;
   left: 200px;
-  top: -37px;
+  top: -47px;
   line-height: 40px;
   border-radius: 6px;
   padding: 0 22px;
@@ -123,7 +123,7 @@ form {
 .lastname {
   position: relative;
   left: 250px;
-  top: -37px;
+  top: -47px;
   line-height: 40px;
   border-radius: 6px;
   padding: 0 22px;
@@ -133,7 +133,7 @@ form {
 .email {
   position: relative;
   left: 200px;
-  top: -37px;
+  top: -47px;
   line-height: 40px;
   width: 432px;
   border-radius: 6px;
@@ -144,7 +144,7 @@ form {
 .pnum {
   position: relative;
   left: 200px;
-  top: -37px;
+  top: -67px;
   line-height: 40px;
   width: 132px;
   border-radius: 6px;
@@ -152,10 +152,51 @@ form {
   font-size: 16px;
 }
 
-.ic {
+.datec {
   position: relative;
   left: 200px;
-  top: -37px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.icc {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.time {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.until {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pax {
+  position: relative;
+  left: 200px;
+  top: -67px;
   line-height: 40px;
   width: 132px;
   border-radius: 6px;
