@@ -28,35 +28,35 @@
 
     <div class="main">
             <form>
-                <div id="name">
-                    <h2>Name</h2>
+             
+                    <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
                     <input type="text" class="lastname" name="last_name" placeholder="Last Name" required><br>
 
-                    <h2>Email</h2>
+                    <h2 class="name">Email</h2>
                     <input type="email" class="email" name="email" placeholder="Email" required><br>
 
-                    <h2>Phone Number</h2>
+                    <h2 class="name">Phone Number</h2>
                     <input type="tel" class="pnum" name="Phone Number" placeholder="01234567891" pattern="[0-9]{3}-[0-9]{8}" maxlength="12" required><br>
 
-                    <h2>Identification Number</h2>
+                    <h2 class="name">Identification Number</h2>
                     <input type="text" class="ic" name="ic" placeholder="000000000000" minlength="12" maxlength="12" required><br>
 
-                    <h2>Choose date</h2>
+                    <h2 class="name">Choose date</h2>
                     <input type="date" class="date" name="date" required><br>
 
-                    <h2>Choose time</h2>
+                    <h2 class="name">Choose time</h2>
                     <input type="time" class="time" name="starttime" required> until
                     <input type="time" class="time" name="endtime" required><br>
 
-                    <h2>Number of pax</h2>
+                    <h2 class="name">Number of pax</h2>
                     <input type="number" class="pax" name="pax" placeholder="00" minlength="50" required><br><br>
 
                     <button type="submit">Make Reservation</button><br>
-                </div>
+                
             </form>
         </div>
     </div>
-   
+
 </body>
 </html>
