@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Gaffer</title>
-    <link rel="stylesheet" type="text/css" href="styling/Reservation.css">
+    <link rel="stylesheet" type="text/css" href="styling/afterconfirm.css">
 
 
 </head>
@@ -25,6 +25,13 @@
     </header>
     <hr class="line">
 
+    <div class="mainthanks">
+        <div class="thanksimg"><img src="resource/thanks.png" alt="thank you"></div>
+        <p class="desc">Please go to our office for futher planning.</p>
+        <div class="gotomain">
+            <a href="Home.html" class="continue" onclick="getConfirmation();"><strong>Continue</strong></a>
+        </div>
+    </div>
 
     <table class="table">
     <tr>
@@ -57,7 +64,7 @@
     <script type = "text/javascript">
 
     function getConfirmation() {
-        alert("Confirm reservation?");
+        alert("Go to Homepage");
     }
 
 </script>     
