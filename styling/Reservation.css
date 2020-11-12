@@ -28,7 +28,7 @@ header::after {
 nav {
   float: right;
   width: 50%;
-  margin-right: 0 auto;
+  margin-right: -10%;
   padding-top: 15px;
 }
 
