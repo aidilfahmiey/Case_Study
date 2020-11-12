@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Gaffer</title>
     <link rel="stylesheet" type="text/css" href="styling/Reservation.css">
+
+
 </head>
 <body>
     <header>
@@ -27,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form method="$_POST">
+            <form action="Home.html" method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -51,14 +53,14 @@
                     <input type="time" class="time" name="endtime" required><br>
 
                     <h2 class="name">Number of pax</h2>
-                    <input type="number" class="pax" name="pax" placeholder="00" minlength="50" required>
+                    <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
-                    <button class="button button1"  onClick="confirm()">Make Reservation</button>
+                    <button class="button button1" onclick="getConfirmation();">Make Reservation</button>
                 
             </form>
         </div>
     </div>
-   
+
     <table class="table">
     <tr>
         <td width=50%>
@@ -86,17 +88,13 @@
         </td>
     </tr>
 
-    <script type="text/javascript">
-        function confirm(){
-            var userPreference;
-            var x =confirm("Confirm this reservation?");
-            if(r==true){
-                userPreference = "Data saved successfully!";
-            }else{
-                userPreference = "Cancelled";
-            }
-        }
 
-    </script>
+    <script type = "text/javascript">
+
+    function getConfirmation() {
+        alert("Your reservation has been made, Thank you!");
+    }
+
+</script>     
 </body>
 </html>
