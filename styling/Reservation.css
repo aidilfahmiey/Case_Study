@@ -1,5 +1,7 @@
 * {
-  margin: 0 auto;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 /*css for HEADER*/
 
@@ -67,6 +69,7 @@ hr.line {
 /*css for MAIN BODY*/
 body {
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .formbody {
@@ -104,7 +107,7 @@ form {
   margin-top: 30px;
   width: 125px;
   font-size: 18px;
-  color: white;
+  color: red;
   font-weight: 700;
 }
 

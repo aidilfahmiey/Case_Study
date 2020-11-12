@@ -28,7 +28,7 @@
 
     <div class="main">
             <form>
-             
+        
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
                     <input type="text" class="lastname" name="last_name" placeholder="Last Name" required><br>
