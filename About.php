@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Gaffer</title>
-    <link rel="stylesheet" href="styling/About.css">
+    <link rel="stylesheet" type="text/css" href="styling/Contact.css">
 </head>
 <body>
     <header>
@@ -21,9 +21,9 @@
             </nav>
         </div>
     </header>
-    <hr class="rounded">
+    <hr class="line">
 
-    <img src="About.jpg" alt="About" width="1250" height="350"><br>
+    <img src="About.jpg" alt="About" width="1265" height="350"><br>
     
 <body>
 
@@ -33,20 +33,44 @@
     </div>
 
     <br>
+    <img id="historyy" src="Historyy.jpg" alt="Historyy" >
 
     <h2>OUR HISTORY</h2>
     <div class="History">
         In today’s world of technology, everyone has becoming familiar with electronic commerce that enable users to book discovered event tickets as well as revolutionize event organizers’ marketing approach. However, to be exact, distributed commerce has been evolving for awhile which many technological expansions have made it all achievable. Inspired by Ticketmaster in the late 80s where people used to line up at the box office to buy tickets which then, the industry has moved to a physical distributed commerce platform for instance at record stores or venues. After that, ticketing shifted online through specific commerce platform and now we are in the era of new model of distributed commerce conducted online which in other words physical “expansion” back then in the late 80s but only that everything is online which in other word we are distributing event tickets across digital platforms. In fact, with the mobile advancement we have, users are allowed to keep their virtual tickets on their phones while the organizers can sell tickets from their phones. At EventGaffer, we believe that staying ahead of mobile advancements means revolving the way products are built. Our vision is to provide a platform where anyone can easily build on, so that we can give our users the best experience possible. Essentially, we embrace partnerships that give our organizers the best tools out there for growing their businesses and that make it as easy as possible for attendees to buy tickets. When it comes to distributed commerce, this means helping organizers gain incremental ticket sales by keeping their customer right where they are from discovery through purchase. Ten years from now, we hope that EventGaffer will be recognized as a trusted source which user found it both a safe and easy transaction system.
     </div>
-    <div class="Balloon">
-        <img src="Historyy.jpg" ALIGN="center" width="300" height="300">  
-    </div>
-
+    
     <h2>OUR TEAM</h2>
     <div class="Team">
         <img src="The Org.jpg" ALIGN="center" width="1000" height="700">  
     </div>
 </body>
 
+<table class="table">
+    <tr>
+        <td width=50%>
+
+        <div class="text">
+            <a>Jalan Hang Tuah,</a>
+            <br>
+            <a>Persiaran Tunku Mahkota Patik,</a>
+            <br>
+            <a>40460 Kota Kemuning, Shah Alam</a>
+            <br>
+            <a>Selangor, Malaysia</a>
+        </div>
+
+        </td>
+        <td>
+
+        <div class="follow">
+            <a class="footpic">Follow us</a>
+            <br><br>
+            <a href="https://twitter.com/explore"><img src="resource/twitter.png" alt="Twitter logo" class="footpic"></a>
+            <a  href="https://www.facebook.com/"><img src="resource/fb.png" alt="Facebook logo" class="footpic"></a>
+        </div>
+
+        </td>
+    </tr>
 </body>
 </html>

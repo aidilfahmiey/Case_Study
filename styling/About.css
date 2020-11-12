@@ -1,16 +1,14 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  zoom: 100%;
-  text-align: center;
-}
+/*css for HEADER*/
 
+header {
+  width: 100%;
+  margin: 0 auto;
+}
 header::after {
   content: "";
   display: table;
   clear: both;
 }
-
 .Top {
   width: 90%;
   margin: 0 auto;
@@ -18,7 +16,7 @@ header::after {
 
 .logomain {
   float: left;
-  margin-left: -50px;
+  margin-left: -10px;
   width: 250px;
   height: 100px;
 }
@@ -32,6 +30,7 @@ nav {
   float: right;
   width: 50%;
   margin-right: -10%;
+  padding-top: 10px;
 }
 
 nav ul {
@@ -61,10 +60,12 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
 }
 
-hr.rounded {
-  border-top: 8px solid gray;
-  border-radius: 50px;
+hr.line {
+  border-top: 10px solid gray;
+  border-radius: 0px;
 }
+
+/*css for BODY*/
 
 h1 {
   width: 100%;
@@ -102,4 +103,36 @@ h2 {
   padding: 20px;
   margin: auto;
   text-align: center;
+}
+
+#historyy {
+  width: 450px;
+  height: 451px;
+  margin-left: 938px;
+  padding-top: 50px;
+  margin-bottom: 24px;
+}
+
+/*css for FOOTER*/
+.table {
+  border: 2px solid grey;
+  width: 100%;
+  background-color: black;
+  padding: 25px 25px 25px 25px;
+}
+.text {
+  color: white;
+  margin-left: 20px;
+}
+.follow {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
