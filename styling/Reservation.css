@@ -228,3 +228,27 @@ form {
   background-color: #008cba;
   color: white;
 }
+
+/*css for FOOTER*/
+.table {
+  border: 2px solid grey;
+  width: 100%;
+  background-color: black;
+  padding: 25px 25px 25px 25px;
+}
+.text {
+  color: white;
+  margin-left: 20px;
+}
+.follow {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
