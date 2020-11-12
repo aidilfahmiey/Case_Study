@@ -28,8 +28,8 @@ header::after {
 nav {
   float: right;
   width: 50%;
-  margin-right: -10%;
-  padding-top: 10px;
+  margin-right: 0 auto;
+  padding-top: 15px;
 }
 
 nav ul {
