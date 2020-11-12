@@ -1,9 +1,8 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  zoom: 100%;
+/*css for HEADER*/
+header {
+  width: 100%;
+  margin: 0 auto;
 }
-
 header::after {
   content: "";
   display: table;
@@ -16,7 +15,7 @@ header::after {
 
 .logomain {
   float: left;
-  margin-left: -50px;
+  margin-left: -10px;
   width: 250px;
   height: 100px;
 }
@@ -30,6 +29,7 @@ nav {
   float: right;
   width: 50%;
   margin-right: -10%;
+  padding-top: 10px;
 }
 
 nav ul {
@@ -59,7 +59,147 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
 }
 
-hr.rounded {
-  border-top: 8px solid gray;
-  border-radius: 50px;
+hr.line {
+  border-top: 10px solid gray;
+  border-radius: 0px;
+}
+
+/*css for MAIN BODY*/
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.formbody {
+  background-image: url(../resource/podium.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 1230px;
+  width: 100%;
+  margin-top: -10px;
+  font-family: sans-serif;
+}
+
+.mainform {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  color: white;
+  padding: 10px 0px 10px 0px;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 15px 15px 30px 30px;
+  width: 800px;
+  margin: auto;
+  height: 780px;
+}
+
+form {
+  padding: 10px;
+}
+
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.lastname {
+  position: relative;
+  left: 250px;
+  top: -47px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.email {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 432px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.pnum {
+  position: relative;
+  left: 200px;
+  top: -67px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.datec {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.icc {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.time {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.until {
+  position: relative;
+  left: 200px;
+  top: -47px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pax {
+  position: relative;
+  left: 200px;
+  top: -67px;
+  line-height: 40px;
+  width: 132px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
 }
