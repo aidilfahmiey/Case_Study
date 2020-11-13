@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Gaffer | About Us</title>
+    <title>EventGaffer | About Us</title>
     <link rel="stylesheet" type="text/css" href="styling/About.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Open+Sans&display=swap" rel="stylesheet">

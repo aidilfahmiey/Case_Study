@@ -77,10 +77,8 @@ body {
 }
 
 .location {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73ad21;
-  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h2.mapTitle {
@@ -103,7 +101,7 @@ h3.mapDesc {
 
 #map {
   align-content: center;
-  margin-left: 265px;
+  margin-left: 380px;
   margin-top: 100px;
   border-radius: 10px 0px 0px 10px;
 }
@@ -119,6 +117,10 @@ h2.contactDesc {
 }
 
 h3.phoneTitle {
+  margin: auto;
+  width: 10%;
+  border: 3px solid#FFC300;
+  padding: 10px;
   text-align: center;
   color: #c70039;
   font-family: "Staatliches", cursive;
@@ -130,7 +132,7 @@ h3.phoneTitle {
 
 p.phoneDesc {
   text-align: center;
-  color: #c70039;
+  color: #5e5e5d;
   font-family: "Staatliches", cursive;
   font-size: 18px;
   font-weight: 400;
@@ -139,6 +141,10 @@ p.phoneDesc {
 }
 
 h3.emailTitle {
+  margin: auto;
+  width: 10%;
+  border: 3px solid#FFC300;
+  padding: 10px;
   text-align: center;
   color: #c70039;
   font-family: "Staatliches", cursive;
@@ -148,9 +154,9 @@ h3.emailTitle {
   padding-bottom: 10px;
 }
 
-h3.emailDesc {
+p.emailDesc {
   text-align: center;
-  color: #c70039;
+  color: #5e5e5d;
   font-family: "Staatliches", cursive;
   font-size: 18px;
   font-weight: 400;
