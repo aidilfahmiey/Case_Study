@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form action="Home.html" method="$_POST">
+            <form action="afterconfirm.php" method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -55,7 +55,7 @@
                     <h2 class="name">Number of pax</h2>
                     <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
-                    <button class="button button1" onclick="getConfirmation();">Make Reservation</button>
+                    <button class="button button1">Make Reservation</button>
                 
             </form>
         </div>
@@ -84,17 +84,8 @@
             <a href="https://twitter.com/explore"><img src="resource/twitter.png" alt="Twitter logo" class="footpic"></a>
             <a  href="https://www.facebook.com/"><img src="resource/fb.png" alt="Facebook logo" class="footpic"></a>
         </div>
-
         </td>
     </tr>
-
-
-    <script type = "text/javascript">
-
-    function getConfirmation() {
-        alert("Confirm reservation?");
-    }
-
-</script>     
+    </table>
 </body>
 </html>

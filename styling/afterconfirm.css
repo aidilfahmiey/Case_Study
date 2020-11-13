@@ -1,0 +1,143 @@
+/*css for HEADER*/
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Top {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logomain {
+  float: left;
+  margin-left: -10px;
+  width: 250px;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  float: right;
+  width: 50%;
+  padding-left: -10%;
+  padding-right: -10%;
+  margin-right: -15%;
+  padding-top: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+nav a:hover {
+  color: white;
+  background: black;
+  transition: 0.5s;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+hr.line {
+  border-top: 10px solid gray;
+  border-radius: 0px;
+}
+
+/*css for MAIN BODY*/
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.mainthanks {
+  background-color: white;
+  position: relative;
+  height: 100%;
+  margin-top: -1.3%;
+  margin-bottom: 0%;
+}
+.thanksimg {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: 31%;
+  margin-right: auto;
+}
+.desc {
+  margin-top: 10%;
+  text-align: center;
+  margin-left: -1%;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+.gotomain {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.continue {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #008cba;
+  padding: 10px 20px 10px 20px;
+}
+.continue:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+/*css for FOOTER*/
+.table {
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+  padding: 25px 25px 25px 25px;
+  margin-top: -2%;
+}
+.text {
+  color: white;
+  margin-left: 20px;
+}
+.follow {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
