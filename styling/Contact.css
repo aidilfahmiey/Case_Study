@@ -29,8 +29,10 @@ header::after {
 nav {
   float: right;
   width: 50%;
-  margin-right: -10%;
-  padding-top: 10px;
+  padding-left: -10%;
+  padding-right: -10%;
+  margin-right: -15%;
+  padding-top: 15px;
 }
 
 nav ul {
@@ -41,7 +43,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 5%;
   padding-top: 5%;
 }
 
@@ -67,6 +69,94 @@ hr.line {
 
 /*css for BODY*/
 
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.location {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+}
+
+h2.mapTitle {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+h3.mapDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+#map {
+  align-content: center;
+  margin-left: 265px;
+  margin-top: 100px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+h2.contactDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h3.phoneTitle {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+p.phoneDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h3.emailTitle {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h3.emailDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
 /*css for FOOTER*/
 .table {
   border: 2px solid grey;
