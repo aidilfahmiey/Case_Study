@@ -1,16 +1,14 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  zoom: 100%;
-  text-align: center;
-}
+/*css for HEADER*/
 
+header {
+  width: 100%;
+  margin: 0 auto;
+}
 header::after {
   content: "";
   display: table;
   clear: both;
 }
-
 .Top {
   width: 90%;
   margin: 0 auto;
@@ -18,7 +16,7 @@ header::after {
 
 .logomain {
   float: left;
-  margin-left: -50px;
+  margin-left: -10px;
   width: 250px;
   height: 100px;
 }
@@ -31,7 +29,10 @@ header::after {
 nav {
   float: right;
   width: 50%;
-  margin-right: -10%;
+  padding-left: -10%;
+  padding-right: -10%;
+  margin-right: -15%;
+  padding-top: 15px;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 5%;
   padding-top: 5%;
 }
 
@@ -61,45 +62,155 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
 }
 
-hr.rounded {
-  border-top: 8px solid gray;
-  border-radius: 50px;
+hr.line {
+  border-top: 10px solid gray;
+  border-radius: 0px;
 }
 
-h1 {
-  width: 100%;
-  display: inline;
-  background-color: white;
-  color: black;
-  font-weight: bold;
+/*css for BODY*/
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.about {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#image1 {
+  display: block;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+h2.aboutTitle {
   text-align: center;
-  font-size: 2.5em;
+  font-family: "Comfortaa", cursive;
+  font-size: 28px;
+  color: #c70039;
+  font-weight: 500;
+  margin-left: 200px;
+  text-align: left;
+  text-justify: inter-word;
 }
 
-.About {
-  background-color: white;
-  width: 800px;
-  border: 5px solid white;
-  padding: 20px;
+p.aboutDesc {
+  text-align: center;
+  font-family: "Bitter", serif;
+  font-size: 18px;
+  color: #581845;
+  font-weight: 500;
+  margin-left: 200px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.history {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2.historyTitle {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+#image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.historyDesc {
+  text-align: center;
+  font-family: "Bitter", serif;
+  font-size: 18px;
+  color: #581845;
+  font-weight: 500;
+  text-justify: inter-word;
   margin: auto;
+  width: 60%;
+  border: 3px solid#FFC300;
+  padding: 10px;
+}
+
+.team {
   text-align: center;
 }
 
-h2 {
+h2.teamTitle {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+h3.teamDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+#image3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.operation {
+  text-align: center;
+}
+
+h2.operationTitle {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+h3.operationDesc {
+  text-align: center;
+  color: #581845 62;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+/*css for FOOTER*/
+.table {
+  border: 2px solid grey;
   width: 100%;
-  display: inline;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  font-size: 2.5em;
+  background-color: black;
+  padding: 25px 25px 25px 25px;
 }
-
-.History {
-  background-color: white;
-  width: 800px;
-  border: 5px solid white;
-  padding: 20px;
-  margin: auto;
+.text {
+  color: white;
+  margin-left: 20px;
+}
+.follow {
+  float: right;
   text-align: center;
+  margin-right: 20px;
+  color: white;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
