@@ -33,7 +33,7 @@
     </header>
     <hr class="line">
     
-    <img src="resource/Contact.jpg" alt="Contact" width="1265" height="350">
+    <img src="resource/Contact.jpg" alt="Contact" width="100%" height="350">
 
     <br />
     <br />
