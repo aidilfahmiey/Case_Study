@@ -15,7 +15,7 @@
         
             <nav>
                 <ul>
-                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="index.php"><strong>Home</strong></a></li>
                 <li><a href="Reservation.php"><strong>Reservation</strong></a></li>
                 <li><a href="About.php"><strong>About Us</strong></a></li>
                 <li><a href="Contact.php"><strong>Contact Us</strong></a></li>
@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form action="script/storedata.php" method="$_POST">
+            <form action="afterconfirm.php" method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
