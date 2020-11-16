@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form action="afterconfirm.php" method="$_POST">
+            <form action="user_detail.php" method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -55,7 +55,7 @@
                     <h2 class="name">Number of pax</h2>
                     <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
-                    <button class="button button1" type="submit">Make Reservation</button>
+                    <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
                 
             </form>
         </div>
