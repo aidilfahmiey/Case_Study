@@ -16,7 +16,7 @@ $userdata[]='irises';
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Booked Schedule</title>
+        <title>EventGaffer | Booked Schedule</title>
         <link rel="stylesheet" type="text/css" href="styling/CheckSchedule.css">
     </head>
 
@@ -37,18 +37,44 @@ $userdata[]='irises';
     </header>
     <hr class="line">
     
-    <img src="resource/Contact.jpg" alt="Contact" width="100%" height="350">
+    <img src="resource/baloon.jpg" alt="Contact" width="100%" height="450">
 
     <br />
     <br />
     <br />
     <br />
+
+    <form class="example" action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
 
 
         <h1 class="checkTitle">Booked Schedule</h1>
     
         <?php
         $udate = "2020-12-19";
+        if (array($udate,$userdata)){
+            echo "<p>The event on $udate has successfully been booked by.</p>";
+        } else {
+            echo "<p>There is no event booked on $udate .</p>";
+        }
+
+        $udate = "2020-11-20";
+        if (array($udate,$userdata)){
+            echo "<p>The event on $udate has successfully been booked.</p>";
+        } else {
+            echo "<p>There is no event booked on $udate .</p>";
+        }
+
+        $udate = "2021-01-06";
+        if (array($udate,$userdata)){
+            echo "<p>The event on $udate has successfully been booked.</p>";
+        } else {
+            echo "<p>There is no event booked on $udate .</p>";
+        }
+
+        $udate = "2020-12-01";
         if (array($udate,$userdata)){
             echo "<p>The event on $udate has successfully been booked.</p>";
         } else {
