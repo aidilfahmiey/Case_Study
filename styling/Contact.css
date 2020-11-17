@@ -1,9 +1,9 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  zoom: 100%;
-}
+/*css for HEADER*/
 
+header {
+  width: 100%;
+  margin: 0 auto;
+}
 header::after {
   content: "";
   display: table;
@@ -16,7 +16,7 @@ header::after {
 
 .logomain {
   float: left;
-  margin-left: -50px;
+  margin-left: -10px;
   width: 250px;
   height: 100px;
 }
@@ -29,7 +29,10 @@ header::after {
 nav {
   float: right;
   width: 50%;
-  margin-right: -10%;
+  padding-left: -10%;
+  padding-right: -10%;
+  margin-right: -15%;
+  padding-top: 15px;
 }
 
 nav ul {
@@ -40,7 +43,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 5%;
   padding-top: 5%;
 }
 
@@ -59,7 +62,129 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
 }
 
-hr.rounded {
-  border-top: 8px solid gray;
-  border-radius: 50px;
+hr.line {
+  border-top: 10px solid gray;
+  border-radius: 0px;
+}
+
+/*css for BODY*/
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.location {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2.mapTitle {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+h3.mapDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+#map {
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+h2.contactDesc {
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h3.phoneTitle {
+  margin: auto;
+  width: 10%;
+  border: 3px solid#FFC300;
+  padding: 10px;
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+p.phoneDesc {
+  text-align: center;
+  color: #5e5e5d;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h3.emailTitle {
+  margin: auto;
+  width: 10%;
+  border: 3px solid#FFC300;
+  padding: 10px;
+  text-align: center;
+  color: #c70039;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+p.emailDesc {
+  text-align: center;
+  color: #5e5e5d;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+/*css for FOOTER*/
+.table {
+  border: 2px solid grey;
+  width: 100%;
+  background-color: black;
+  padding: 25px 25px 25px 25px;
+}
+.text {
+  color: white;
+  margin-left: 20px;
+}
+.follow {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+}
+.footpic {
+  width: 50px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
