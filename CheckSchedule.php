@@ -47,16 +47,7 @@ $userdata[]='irises';
 
         <h1 class="checkTitle">Booked Schedule</h1>
     
-        <?php
-        $udate = "2020-12-19";
-        if (array($udate,$userdata)){
-            echo "<p>The event on $udate has successfully been booked.</p>";
-        } else {
-            echo "<p>There is no event booked on $udate .</p>";
-        }
-        
-        ?>
-
+        <?php include("userdata.php");?>
 
     <table class="table">
     <tr>
