@@ -35,7 +35,7 @@ $flowers[]='irises';
     <br />
 
 
-        <h1>Booked Schedule</h1>
+        <h1 class="checkTitle">Booked Schedule</h1>
     
         <?php
         $order = 'babybreath';

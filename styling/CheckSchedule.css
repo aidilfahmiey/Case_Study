@@ -69,6 +69,17 @@ hr.line {
 
 /*css for BODY*/
 
+h1.checkTitle {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 28px;
+  color: #c70039;
+  font-weight: 500;
+  margin-left: 200px;
+  text-align: left;
+  text-justify: inter-word;
+}
+
 /*css for FOOTER*/
 .table {
   border: 2px solid grey;
