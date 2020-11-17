@@ -15,7 +15,7 @@
         
             <nav>
                 <ul>
-                <li><a href="Home.html"><strong>Home</strong></a></li>
+                <li><a href="index.html"><strong>Home</strong></a></li>
                 <li><a href="Reservation.php"><strong>Reservation</strong></a></li>
                 <li><a href="About.php"><strong>About Us</strong></a></li>
                 <li><a href="Contact.php"><strong>Contact Us</strong></a></li>
@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form action="afterconfirm.php" method="post">
+            <form action="afterconfirm.php" method="$_POST">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -39,10 +39,10 @@
                     <input type="email" class="email" name="email" placeholder="Email" required>
 
                     <h2 class="name">Phone Number</h2>
-                    <input type="tel" class="pnum" name="Phone_number" placeholder="01234567891"  maxlength="12" required><br>
+                    <input type="tel" class="pnum" name="Phone Number" placeholder="01234567891"  maxlength="12" required><br>
 
                     <h2 class="name">Choose date</h2>
-                    <input type="date" class="datec" name="datec" required>
+                    <input type="date" class="datec" name="date" required>
 
                     <h2 class="name">I/C</h2>
                     <input type="text" class="icc" name="ic" placeholder="000000000000" minlength="12" maxlength="12" required><br>
@@ -55,7 +55,7 @@
                     <h2 class="name">Number of pax</h2>
                     <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
-                    <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
+                    <button class="button button1">Make Reservation</button>
                 
             </form>
         </div>
@@ -87,6 +87,5 @@
         </td>
     </tr>
     </table>
-
 </body>
 </html>
