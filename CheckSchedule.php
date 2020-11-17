@@ -18,6 +18,7 @@ $userdata[]='irises';
         <meta charset="utf-8">
         <title>EventGaffer | Booked Schedule</title>
         <link rel="stylesheet" type="text/css" href="styling/CheckSchedule.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -45,7 +46,7 @@ $userdata[]='irises';
     <br />
 
     <form class="example" action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
+        <input type="text" placeholder="Search date format : yyyy-mm-dd" name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 
@@ -53,9 +54,9 @@ $userdata[]='irises';
         <h1 class="checkTitle">Booked Schedule</h1>
     
         <?php
-        $udate = "2020-12-19";
+        $udate = " ";
         if (array($udate,$userdata)){
-            echo "<p>The event on $udate has successfully been booked by.</p>";
+            echo "<p>The event on $udate has fully been booked.</p>";
         } else {
             echo "<p>There is no event booked on $udate .</p>";
         }
