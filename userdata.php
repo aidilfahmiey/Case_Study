@@ -32,7 +32,7 @@ $petime = $user->getETime();
 
 $user->setPax($_POST['pax']);
 $ppax = $user->getPax();
-}
+
 
 $userdata = array(
     "ufname"=>array ("Aidil","Sabrina","Khairul","Aiman"),
@@ -58,10 +58,14 @@ $userdata["upax"][]= $ppax;
 
 
 array_push($userdata);
+
+/*
+//FOR CHECKING//
 print_r($userdata);
 echo "<pre>";
 print_r($userdata);
 echo"<pre>";
-
+*/
+}
 
 ?>

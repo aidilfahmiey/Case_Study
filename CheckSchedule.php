@@ -50,6 +50,7 @@ $userdata[]='irises';
     <br />
     <br />
     
+<<<<<<< HEAD
     <form class="search" method="post" action="SearchResult.php">
         <input type="text" placeholder="Search date format : yyyy-mm-dd" name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
@@ -57,6 +58,23 @@ $userdata[]='irises';
     <br />
     <br />
     <br />
+=======
+        <?php include("userdata.php");?>
+        <?php
+        $udate = "2020-12-19";
+        if (array($udate,$userdata)){
+            echo "<p>The event on $udate has successfully been booked by.</p>";
+        } else {
+            echo "<p>There is no event booked on $udate .</p>";
+        }
+
+        $udate = "2020-11-20";
+        if (array($udate,$userdata)){
+            echo "<p>The event on $udate has successfully been booked.</p>";
+        } else {
+            echo "<p>There is no event booked on $udate .</p>";
+        }
+>>>>>>> fbab6e6223a9c3dcabf1f11a8e90ffb652632fbb
 
     </form>
 
