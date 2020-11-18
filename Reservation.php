@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            < action="afterconfirm.php" method="post">
+            <form action="afterconfirm.php" method="post">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
