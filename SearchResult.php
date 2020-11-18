@@ -1,17 +1,3 @@
-<?php 
-$userdata = array(
-    "ufname"=>array ("Aidil","Sabrina","Khairul","Aiman"),
-    "ulname"=>array ("Fahmiey","Fasha","Nazreen","Hakim"),
-    "uemail"=>array ("aidil@gmail.com","sabrina24@gmail.com","nazreenx99@gmail.com","aiman_hkm@gmail.com"),
-    "upnum"=>array ("0194194420","0163069986","01115437789","0195489421"),
-    "udate"=>array ("2020-11-20","2020-12-19","2021-01-06","2020-12-01"),
-    "uic"=>array (991004095159,990225055658, 960915037865,890606093182),
-    "ustime"=>array ("08:00","09:30","11:00","08:30"),
-    "uetime"=>array ("15:00","16:30","17:00","13:30"),
-    "upax"=>array (100,250,80,400)
-);
-$userdata[]='irises';
-?>
 <!doctype html>
 <html>
     <head>
@@ -43,25 +29,36 @@ $userdata[]='irises';
     <br />
     <br />
     <br />
-    <br />
 
     <h1 class="checkTitle">Booked Schedule</h1>
     <br />
     <br />
     <br />
-    
-    <form class="search" method="post" action="SearchResult.php">
-        <input type="text" placeholder="Search date format : yyyy-mm-dd" name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    <br />
-    <br />
-    <br />
-    <br />
+        <?php
 
-    </form>
-
+            $input = $_POST['search'];
+            $userdata = array(
+                "ufname"=>array ("Aidil","Sabrina","Khairul","Aiman"),
+                "ulname"=>array ("Fahmiey","Fasha","Nazreen","Hakim"),
+                "uemail"=>array ("aidil@gmail.com","sabrina24@gmail.com","nazreenx99@gmail.com","aiman_hkm@gmail.com"),
+                "upnum"=>array ("0194194420","0163069986","01115437789","0195489421"),
+                "udate"=>array ("2020-11-20","2020-12-19","2021-01-06","2020-12-01"),
+                "uic"=>array (991004095159,990225055658, 960915037865,890606093182),
+                "ustime"=>array ("08:00","09:30","11:00","08:30"),
+                "uetime"=>array ("15:00","16:30","17:00","13:30"),
+                "upax"=>array (100,250,80,400)
+            );
+            $userdata[]='irises';
+                                   
+            if ($input === in_array(array('2020-11-20','2020-12-19','2021-01-06','2020-12-01'),$userdata)){
+                echo "<p>The event on $input has fully been booked.</p>";
+            } else {
+            echo "<p>There is no event booked on $input .</p>";
+            }
         
-    <table class="table">
+        ?>
+
+<table class="table">
     <tr>
         <td width=50%>
 

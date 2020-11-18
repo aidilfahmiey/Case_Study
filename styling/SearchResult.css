@@ -77,41 +77,6 @@ body {
   box-sizing: border-box;
 }
 
-form.search input[type="text"] {
-  align-content: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-form.search button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196f3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.searh button:hover {
-  background: #0b7dda;
-}
-
-form.search::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 h1.checkTitle {
   text-align: center;
   font-family: "Comfortaa", cursive;
@@ -119,6 +84,16 @@ h1.checkTitle {
   color: #c70039;
   font-weight: 500;
   text-justify: inter-word;
+}
+
+p {
+  text-align: center;
+  color: #581845 62;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
 }
 
 /*css for FOOTER*/

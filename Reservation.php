@@ -29,7 +29,7 @@
     <div class="mainform"><h1>Reservation Form</h1></div>
     
     <div class="main">
-            <form action="afterconfirm.php" method="post">
+            < action="afterconfirm.php" method="post">
         
                     <h2 class="name">Name</h2>
                     <input type="text" class="firstname" name="first_name" placeholder="First Name" required>
@@ -56,6 +56,10 @@
                     <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
                     <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
+                    <br />
+                    <br />
+                    <a href="CheckSchedule.php"><strong>Check Schedule</strong></a>
+                    
                 
             </form>
         </div>
