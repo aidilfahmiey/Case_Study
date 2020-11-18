@@ -57,8 +57,8 @@
 
                     <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
                     <br />
-                    <br />
-                    <a href="CheckSchedule.php"><strong>Check Schedule</strong></a>
+                    <button class="button button1" type="submit" name="check" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
+                    
                     
                 
             </form>
