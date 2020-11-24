@@ -4,6 +4,8 @@
 
 if(isset($_POST['submit'])){
 
+    session_start();
+
     $user = new Data("None","None","None",00000000000,"00/00/0000","000000000000","00:00","00:00",00);
 
 $user->setFName($_POST['first_name']);
@@ -56,16 +58,20 @@ $userdata["ustime"][]= $pstime;
 $userdata["uetime"][]= $petime;
 $userdata["upax"][]= $ppax;
 
+$_SESSION['data']=$userdata;
 
-array_push($userdata);
 
-/*
+array_push($_SESSION);
+
+
 //FOR CHECKING//
-print_r($userdata);
+/*
+print_r($_SESSION);
 echo "<pre>";
-print_r($userdata);
+print_r($_SESSION);
 echo"<pre>";
 */
+
 }
 
 ?>
