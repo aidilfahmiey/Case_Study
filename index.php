@@ -12,43 +12,43 @@
     <header>
         <div class="Top">
         <a href="index.php" class="logomain"><img src="resource/logo1.png" alt="logo" class="logo"></a>
-        
+
             <nav>
                 <ul>
                 <li><a href="index.php"><strong>Home</strong></a></li>
-                <li><a href="Reservation.php"><strong>Reservation</strong></a></li>
+                <li><a href="index.php"><strong>Reservation</strong></a></li>
                 <li><a href="About.php"><strong>About Us</strong></a></li>
                 <li><a href="Contact.php"><strong>Contact Us</strong></a></li>
                 </ul>
             </nav>
     </header>
 
-    <div class="register">
+            <div class="register">
               <div class="form-box">
                 <div class="button-box">
                   <div id="btn"></div>
                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
                    <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
                 </div>
-                
-              
-              <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
-                <br><br>
+
+
+              <form id="login" class="input-group" action="login.php" method="POST">
+                <input type="text" class="input-field" name="user" placeholder="User Id" required>
+                <input type="text" class="input-field" name="password" placeholder="Enter Password" required>
+                <br><br><br>
                 <button type="submit" class="submit-btn">Log in</button>
               </form>
-              <form id="signup" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="text" class="input-field" placeholder="Email Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+              <form id="signup" class="input-group" action="registration.php" method="POST">
+                <input type="text" class="input-field" name="user"  placeholder="User Id" required>
+                <input type="text" class="input-field" name= "email" placeholder="Email Id" required>
+                <input type="text" class="input-field" name="password" placeholder="Enter Password" required>
                 <br><br>
                 <button type="submit" class="submit-btn">Sign Up</button>
               </form>
                </div>
               </div>
               <script>
-                var x = document.getElementById("iogin");
+                var x = document.getElementById("login");
                 var y = document.getElementById("signup");
                 var z = document.getElementById("btn");
                 function signup(){
@@ -63,9 +63,13 @@
                   z.style.left = "0";
                 }
               </script>
-        
-   
-            <table class="table">
+
+<h1><center>A relieble Platform for you</center></h1>
+<p><center><font color="purple"><h3>This is a global self-service ticketing solution,for events ranging from small congregational to big conferences <br> and as
+ well as music concerts, marathons,fundraising program and gaming competitions. Now everyone can organize, <br> discover, 
+ book and join events that encourage their joy and fulfill their lives. Our purpose is to connect the world <br> together through live escapade.</h3></font></center></p>
+
+<table class="table">
     <tr>
         <td width=50%>
 
