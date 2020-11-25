@@ -14,7 +14,7 @@
 
             <nav>
                 <ul>
-                <li><a href="index2.php"><strong>Home</strong></a></li>
+                <li><a href="welcome.php"><strong>Home</strong></a></li>
                 <li><a href="Reservation.php"><strong>Reservation</strong></a></li>
                 <li><a href="About.php"><strong>About Us</strong></a></li>
                 <li><a href="Contact.php"><strong>Contact Us</strong></a></li>
