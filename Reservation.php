@@ -49,16 +49,16 @@
                     <input type="text" class="icc" name="ic" placeholder="000000000000" minlength="12" maxlength="12" required><br>
 
                     <h2 class="name">Choose time</h2>
-                    <input type="time" class="time" name="starttime" required>
+                    <input type="time" class="time" name="starttime" min="09:00" max="13:00" required>
                     <a class="until">UNTIL</a>
-                    <input type="time" class="time" name="endtime" required><br>
+                    <input type="time" class="time" name="endtime" min="13:00" max="17:00" required><br>
 
                     <h2 class="name">Number of pax</h2>
-                    <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
+                    <input type="number" class="pax" name="pax" placeholder="Minimum is 50" min="50"required>
 
                     <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
-                    <br />
-                    <button class="button button1" type="submit" name="check" text-align="center" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
+                    
+                    <button class="button button2" type="submit" name="check" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
                     
                     
                 

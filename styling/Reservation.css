@@ -226,8 +226,20 @@ form {
   font-weight: bold;
   border: 2px solid #008cba;
 }
+.button2 {
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 30%;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #008cba;
+}
 
 .button1:hover {
+  background-color: #008cba;
+  color: white;
+}
+.button2:hover {
   background-color: #008cba;
   color: white;
 }
