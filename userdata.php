@@ -1,9 +1,10 @@
 <?php include("data_lib.php");?>
 
 <?php
-const i =1;
+
 if(isset($_POST['submit'])){
 
+   
     
     $user = new Data("None","None","None",00000000000,"00/00/0000","000000000000","00:00","00:00",00);
 
@@ -60,19 +61,14 @@ $userdata["upax"][]= $ppax;
 
 $_SESSION['data']=$userdata;
 
-
 array_push($_SESSION);
 
-
-
-
 //FOR CHECKING//
-/*
-print_r($_SESSION);
+
+
 echo "<pre>";
 print_r($_SESSION);
-echo"<pre>";
-*/
+
 
 
 }
