@@ -1,15 +1,13 @@
-<?php session_start();?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Gaffer</title>
-    <link rel="stylesheet" type="text/css" href="styling/afterconfirm.css">
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>EventGaffer | Booked Schedule</title>
+        <link rel="stylesheet" type="text/css" href="styling/CheckSchedule.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-
-</head>
-<body>
+    <body>
     <header>
         <div class="Top">
         <a href="index.html" class="logomain"><img src="resource/logo1.png" alt="logo" class="logo"></a>
@@ -25,16 +23,41 @@
         </div>
     </header>
     <hr class="line">
+    
+    <img src="resource/baloon.jpg" alt="Contact" width="100%" height="450">
 
-    <div class="mainthanks">
-        <div class="thanksimg"><img src="resource/thanks.png" alt="thank you"></div>
-        <p class="desc">Please go to our office for futher planning.</p>
-        <div class="gotomain">
-            <a href="Home.html" class="continue" onclick="getConfirmation();"><strong>Continue</strong></a>
-        </div>
-    </div>
+    <br />
+    <br />
+    <br />
 
-    <table class="table">
+    <h1 class="checkTitle">Booked Schedule</h1>
+    <br />
+    <br />
+    <br />
+
+        <?php
+
+        $udate = array('2020-11-20' => '0',
+        '2020-12-19' => '1',
+        '2021-01-06' => '2',
+        '2020-12-01' => '3');
+
+        $input = $_POST['search'];
+
+        foreach ($udate as $dateBooked => $afterInput){
+            if ($dateBooked == $input){
+                echo "<p align='center'> <font color=gray  size='4pt'>The event on $input has fully been booked.</font></p>";
+                break;
+            } else {
+                echo "<p align='center'> <font color=gray  size='4pt'>There is no event booked on $input .</font></p>";
+                break;
+                
+            }
+        }
+
+        ?>
+
+<table class="table">
     <tr>
         <td width=50%>
 
@@ -60,16 +83,7 @@
 
         </td>
     </tr>
-
-
-    <script type = "text/javascript">
-
-    function getConfirmation() {
-        alert("Go to Homepage");
-    }
-
-</script>     
-
 </body>
 </html>
-<?php include("userdata.php");?>
+
+</html>

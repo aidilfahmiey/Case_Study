@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
         
             <nav>
                 <ul>
-                <li><a href="Home.html"><strong>Home</strong></a></li>
+                <li><a href="index.php"><strong>Home</strong></a></li>
                 <li><a href="Reservation.php"><strong>Reservation</strong></a></li>
                 <li><a href="About.php"><strong>About Us</strong></a></li>
                 <li><a href="Contact.php"><strong>Contact Us</strong></a></li>
@@ -56,6 +57,10 @@
                     <input type="number" class="pax" name="pax" placeholder="00" min="0"required>
 
                     <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
+                    <br />
+                    <button class="button button1" type="submit" name="check" text-align="center" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
+                    
+                    
                 
             </form>
         </div>

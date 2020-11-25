@@ -43,7 +43,7 @@
     <div class="location">
         <h2 class="mapTitle">CONTACT US</h2>
         <h3 class="mapDesc">How to get to EventGaffer hall venue :</h3>
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127546.33099384785!2d101.74117243880796!3d2.564375536509301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdee1d6ec11de1%3A0x170a06d39fdd2c83!2sPort%20Dickson%2C%20Negeri%20Sembilan!5e0!3m2!1sen!2smy!4v1593200979591!5m2!1sen!2smy" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10972.506808479922!2d101.50613950833902!3d2.9860460746522173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdad8c55199109%3A0xfc1488365a41f196!2zMsKwNTgnNDQuOCJOIDEwMcKwMzAnNTkuMCJF!5e0!3m2!1sen!2smy!4v1606202776574!5m2!1sen!2smy" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
     </div>
     
     <br />
