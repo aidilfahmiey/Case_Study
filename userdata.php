@@ -67,12 +67,12 @@ array_push($_SESSION);
 
 
 //FOR CHECKING//
-
+/*
 print_r($_SESSION);
 echo "<pre>";
 print_r($_SESSION);
 echo"<pre>";
-
+*/
 
 
 }
