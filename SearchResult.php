@@ -137,12 +137,15 @@
 
         foreach ($udate as $dateBooked => $afterInput){
             if ($dateBooked == $input){
-                echo "<p>align=center The event on $input has fully been booked.</p>";
+                echo "<p>The event on $input has fully been booked.</p>";
+            } elseif ($dateBooked != $input){
+                echo "<p>There is no event booked on $input .</p>";
             } else {
-            echo "<p>There is no event booked on $input .</p>";
+            echo " ";
             }
-
         }
+
+        
   
         
         ?>
