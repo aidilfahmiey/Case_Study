@@ -45,6 +45,7 @@
         $input = $_POST['search'];
 
         foreach ($udate as $dateBooked => $afterInput){
+        
             if ($dateBooked == $input){
                 echo "<p align='center'> <font color=gray  size='4pt'>The event on $input has fully been booked.</font></p>";
                 break;
@@ -54,6 +55,7 @@
                 
             }
         }
+    
 
         ?>
 
@@ -84,6 +86,4 @@
         </td>
     </tr>
 </body>
-</html>
-
 </html>
