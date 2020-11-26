@@ -65,10 +65,10 @@ array_push($_SESSION);
 
 //FOR CHECKING//
 
-
+/*
 echo "<pre>";
 print_r($_SESSION);
-
+*/
 
 
 }

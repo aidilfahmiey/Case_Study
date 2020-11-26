@@ -49,7 +49,7 @@
                     <input type="text" class="icc" name="ic" placeholder="000000000000" minlength="12" maxlength="12" required><br>
 
                     <h2 class="name">Choose time</h2>
-                    <input type="time" class="time" name="starttime" min="09:00" max="13:00" required>
+                    <input type="time" class="time" name="starttime" min="08:00" max="13:00" required>
                     <a class="until">UNTIL</a>
                     <input type="time" class="time" name="endtime" min="13:00" max="17:00" required><br>
 

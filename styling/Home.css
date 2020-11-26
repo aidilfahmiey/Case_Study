@@ -145,6 +145,120 @@ border-radius: 30px;
   left: 450px;
 }
 
+.customer{
+  padding: 10px;
+  margin: 20px;
+}
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  width: 70%;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+
+q {font-style: italic;}
+
+
+.author {color: cornflowerblue;}
+
+
+#event{
+  margin-bottom: 70px;
+  margin-top: 80px;
+  margin-left: 50px;
+  position: relative;
+  height: 350px;
+  width: 95%;
+  background-color: rgb(231, 235, 241);
+}
+
+h2.eventtitle{
+  text-align: center;
+  font-family: 'serif', cursive;
+  font-size: 35px;
+  color: #2c0944;
+  font-weight: 500;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+
+.gallery img {
+  width: 100%;
+}
+
+.operation {
+  text-align: center;
+}
+
+h2.operationTitle {
+  text-align: center;
+  font-family: "serif", cursive;
+  font-size: 30px;
+  color: #900c3f;
+  font-weight: 500;
+}
+
+h3.operationDesc {
+  text-align: center;
+  color: #581845 62;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 10px;
+}
+
+h1.maintitle{
+  text-align: center;
+  font-family: "serif", cursive;
+  font-size: 30px;
+  color: #530e42;
+  font-weight: 600;
+}
+
 /*css for FOOTER*/
 .table {
   border: 2px solid grey;

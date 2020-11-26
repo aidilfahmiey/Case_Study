@@ -29,12 +29,93 @@
 </div>
 </div>
 
-<h1><center>A relieble Platform for you</center></h1>
+<h1 class= "maintitle">A relieble Platform for you</h1>
 <p><center><font color="purple"><h3>This is a global self-service ticketing solution,for events ranging from small congregational to big conferences <br> and as
      well as music concerts, marathons,fundraising program and gaming competitions. Now everyone can organize, <br> discover, 
      book and join events that encourage their joy and fulfill their lives. Our purpose is to connect the world <br> together through live escapade.</h3></font></center></p>
 
+<div id= event>
+<h2 class= 'eventtitle'>Recent Events</h2> 
+<div class="gallery">
+    <img src="resource/event1.jpg"  width="600" height="200">
+</div>
 
+<div class="gallery">
+    <img src="resource/event2.jpg"  width="600" height="200">
+</div>
+  
+<div class="gallery">
+    <img src="resource/event3.jpg"  width="600" height="200">
+</div>
+
+<div class="gallery">
+    <img src="resource/event4.jpg"  width="600" height="200">
+</div>
+
+</div>
+
+
+
+<div class= "customer">
+<h1><center>Customer Reviews</center></h1>
+     <div class="slideshow-container">
+
+<div class="mySlides">
+  <q>EventGaffer  has everything we need with tremendous ease of access and excellent customer service</q>
+  <p class="author">- Ayesha binti kadir</p>
+</div>
+
+<div class="mySlides">
+  <q>I love the event budget, management and services.Thanks to EventGaffer for being a corporate planner</q>
+  <p class="author">- Muhammad Rahman </p>
+</div>
+
+<div class="mySlides">
+  <q>Enables me to maintain consistency and manage a high volume of events.I am satisfied and happy.</q>
+  <p class="author">- Nadia Sara</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+ 
+  slides[slideIndex-1].style.display = "block";  
+
+}
+</script>
+
+</div>
+
+<div class="operation">
+            <br />
+            <br />
+            <h2 class="operationTitle">OPERATION HOUR</h2>
+            <h3 class="operationDesc">Monday – Sunday <br />(including eve, public holidays & replacement holidays):<br /><br />8.00 a.m. - 5.00 p.m.</h3>
+        </div>
+        
             <table class="table">
     <tr>
         <td width=50%>

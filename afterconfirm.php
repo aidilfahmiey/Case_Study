@@ -30,7 +30,7 @@
         <div class="thanksimg"><img src="resource/thanks.png" alt="thank you"></div>
         <p class="desc">Please go to our office for futher planning.</p>
         <div class="gotomain">
-            <a href="Home.html" class="continue" onclick="getConfirmation();"><strong>Continue</strong></a>
+            <a href="index.php" class="continue" onclick="getConfirmation();"><strong>Continue</strong></a>
         </div>
     </div>
 
