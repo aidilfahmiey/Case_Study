@@ -58,9 +58,8 @@
 
                     <button class="button button1" type="submit" name="submit" value="Submit">Make Reservation</button>
                     
-                    <div id="wrapper">
-                        <button class="button button2" type="submit" name="check" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
-                    </div>
+                    <button class="button button2" type="submit" name="check" value="Check Date Availability" onclick="window.location.href='http://localhost/Case_Study/CheckSchedule.php'">Check Date Availability</button>
+                    
                     
                 
             </form>
