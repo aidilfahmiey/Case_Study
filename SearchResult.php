@@ -1,3 +1,4 @@
+<!--Nur Sabrina Fasha binti Zaidi Sham (1813526)-->
 <!doctype html>
 <html>
     <head>
@@ -47,10 +48,10 @@
         foreach ($udate as $dateBooked => $afterInput){
         
             if ($dateBooked == $input){
-                echo "<p align='center'> <font color=gray  size='4pt'>The event on $input has fully been booked.</font></p>";
+                echo "<p align='center'> <font color=black  size='4pt'>The event on $input has fully been booked.</font></p>";
                 break;
             } else {
-                echo "<p align='center'> <font color=gray  size='4pt'>There is no event booked on $input .</font></p>";
+                echo "<p align='center'> <font color=black  size='4pt'>There is no event booked on $input .</font></p>";
                 break;
                 
             }
