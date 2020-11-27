@@ -1,3 +1,4 @@
+/*Azlina Arna Nur (1630558)*/
 /*css for HEADER*/
 header {
   width: 100%;
@@ -62,15 +63,15 @@ nav a:hover {
 }
 
 /* css for body */
-.register{
-  height:700px;
+.register {
+  height: 700px;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../resource/main.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../resource/main.jpg);
   background-size: cover;
   background-position: center;
-  
 }
-.form-box{
+.form-box {
   width: 380px;
   height: 400px;
   background: rgb(235, 235, 193);
@@ -82,14 +83,14 @@ nav a:hover {
   margin-left: -100px;
   overflow: hidden;
 }
-.button-box{
+.button-box {
   width: 220px;
   margin: 35px auto;
   position: relative;
   box-shadow: 0 0 20px 9px #ff61241f;
   border-radius: 30px;
 }
-.toggle-btn{
+.toggle-btn {
   padding: 10px 30px;
   cursor: pointer;
   background: transparent;
@@ -97,7 +98,7 @@ nav a:hover {
   outline: none;
   position: relative;
 }
-#btn{
+#btn {
   top: 0;
   left: 0;
   position: absolute;
@@ -105,15 +106,15 @@ nav a:hover {
   height: 100%;
   background: linear-gradient(to right, #ec7aca, #acc1e0);
   border-radius: 30px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.input-group{
-top: 180px;
-position: absolute;
-width: 280px;
-transition: .5s;
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
 }
-.input-field{
+.input-field {
   width: 100%;
   padding: 10px 2px;
   margin: 5px 0;
@@ -123,29 +124,28 @@ transition: .5s;
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
-
 }
-.submit-btn{
-width: 85%;
-padding: 10px 30px;
-cursor: pointer;
-display: block;
-margin: auto;
-background: linear-gradient(to right, #ec7aca, #acc1e0);
-border: 0;
-outline: none;
-border-radius: 30px;
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ec7aca, #acc1e0);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
 }
 
-#login{
+#login {
   left: 50px;
 }
 
-#signup{
+#signup {
   left: 450px;
 }
 
-.customer{
+.customer {
   padding: 10px;
   margin: 20px;
 }
@@ -156,15 +156,14 @@ border-radius: 30px;
   margin: auto;
 }
 
-
 .mySlides {
   display: none;
   padding: 80px;
   text-align: center;
 }
 
-
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -178,28 +177,27 @@ border-radius: 30px;
   user-select: none;
 }
 
-
 .next {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
+q {
+  font-style: italic;
+}
 
+.author {
+  color: cornflowerblue;
+}
 
-q {font-style: italic;}
-
-
-.author {color: cornflowerblue;}
-
-
-#event{
+#event {
   margin-bottom: 70px;
   margin-top: 80px;
   margin-left: 50px;
@@ -209,9 +207,9 @@ q {font-style: italic;}
   background-color: rgb(231, 235, 241);
 }
 
-h2.eventtitle{
+h2.eventtitle {
   text-align: center;
-  font-family: 'serif', cursive;
+  font-family: "serif", cursive;
   font-size: 35px;
   color: #2c0944;
   font-weight: 500;
@@ -223,7 +221,6 @@ h2.eventtitle{
   float: left;
   width: 300px;
 }
-
 
 .gallery img {
   width: 100%;
@@ -251,7 +248,7 @@ h3.operationDesc {
   padding-bottom: 10px;
 }
 
-h1.maintitle{
+h1.maintitle {
   text-align: center;
   font-family: "serif", cursive;
   font-size: 30px;
